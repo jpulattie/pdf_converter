@@ -36,5 +36,5 @@ Alerts the user when program is finished running <br>
 
 ## Contact
 
-[Linked In](https://https://www.linkedin.com/in/joshpulattie817) <br>
-[GitHub](https://github.com/jpulattie)
+[Linked In - Josh Pulattie](https://https://www.linkedin.com/in/joshpulattie817) <br>
+[GitHub - Josh Pulattie](https://github.com/jpulattie)
