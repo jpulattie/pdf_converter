@@ -33,8 +33,10 @@ for i in range(len(files)):
 for i in range(len(files)):
     pdf = files[i]
     file_name = os.path.basename(pdf)
-    if file_name in files:
+    extension = Path(file_name).suffix
+    if file_name in files and extension == ".pdf":
         delete = os.remove(pdf_directory + "/" + file_name)     # deletes pdf files when job is complete
+    elif extension != ".pdf":
+        print(file_name, "was not completed because it is not a pdf")
 
 print("finished")
-
