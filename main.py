@@ -1,12 +1,12 @@
-# Description:  Program converts pdf files in a given directory, converts them to png files, and deletes the pdfs
+# Description:  Program converts pdf file_folders in a given directory, converts them to png file_folders, and deletes the pdfs
 
 from pdf2image import convert_from_path
 from pathlib import Path
 import os
 import re
 
-pdf_directory = "/Users/jpulattie/PycharmProjects/pdf_converter/venv/pdfs"
-pic_directory = "/Users/jpulattie/PycharmProjects/pdf_converter/venv/pictures"
+pdf_directory = "file_folders/pdfs"
+pic_directory = "file_folders/pictures"
 files = os.listdir(pdf_directory)
 
 
@@ -35,7 +35,7 @@ for i in range(len(files)):
     file_name = os.path.basename(pdf)
     extension = Path(file_name).suffix
     if file_name in files and extension == ".pdf":
-        delete = os.remove(pdf_directory + "/" + file_name)     # deletes pdf files when job is complete
+        delete = os.remove(pdf_directory + "/" + file_name)     # deletes pdf file_folders when job is complete
     elif extension != ".pdf":
         print(file_name, "was not completed because it is not a pdf")
 
