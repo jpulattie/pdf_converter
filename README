@@ -1,0 +1,9 @@
+README
+
+This program converts pdf files to png files, places the png files into a pictures folder, and deletes 
+the original pdf. The program will not convert other file types and will alert the user that the file 
+is not a pdf.
+
+This program was built to take a batch of client Quotes and convert them from pdf to a picture in order
+to make texting the quote to clients easier.  Because of the intended use of this program, there are lines
+of code that clean up the file name prior to saving the png.
