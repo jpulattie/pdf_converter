@@ -37,3 +37,4 @@ for i in range(len(files)):
         delete = os.remove(pdf_directory + "/" + file_name)     # deletes pdf files when job is complete
 
 print("finished")
+
