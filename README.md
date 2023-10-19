@@ -21,14 +21,14 @@ Python
 
 ## Features
 
-+Converts PDF files to PNG
-Removes .pdf from the file name
-Places PNG files into a pictures folder
-Deletes the original PDF
-Will not convert any file that is not a PDF
-Alerts user if the file is not converted
-Any file not converted is not deleted
-Alerts the user when program is finished running
+Converts PDF files to PNG <br>
+Removes .pdf from the file name <br>
+Places PNG files into a pictures folder <br>
+Deletes the original PDF <br>
+Will not convert any file that is not a PDF <br>
+Alerts user if the file is not converted <br>
+Any file not converted is not deleted <br>
+Alerts the user when program is finished running <br>
 
 
 ## Contact
