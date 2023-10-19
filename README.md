@@ -10,7 +10,7 @@
 ## Overview
 
 Live demo
-(https://drive.google.com/file/d/1NmlKyNQ98h6AUvWT_ECFJAWmFyeMW48v/view?usp=share_link)">Live Demo Video</a>
+(https://drive.google.com/file/d/1NmlKyNQ98h6AUvWT_ECFJAWmFyeMW48v/view?usp=share_link)
 
     I built this program to meet a common need in my holiday lighting company.  Every year I need to 
 send out pricing quotes to my customers via text message, and I prefer to send them in a picture
