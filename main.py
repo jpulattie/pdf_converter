@@ -5,6 +5,8 @@ from pathlib import Path
 import os
 import re
 
+# left off, not sure this is properly linked to github.  cant get pictures file folder to upload
+# need to edit main to make it place the PNG in the current pdfs file folder
 
 pdf_directory = "file_folders/pdfs"
 pic_directory = "file_folders/pictures"
