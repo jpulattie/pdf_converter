@@ -5,6 +5,7 @@ from pathlib import Path
 import os
 import re
 
+
 pdf_directory = "file_folders/pdfs"
 pic_directory = "file_folders/pictures"
 files = os.listdir(pdf_directory)
