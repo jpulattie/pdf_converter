@@ -32,6 +32,12 @@ pip install pdf2image
 
    **Linux**
       Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
+<br>
+Ensure that xdg-utils is installed, or install with following:
+```   
+      sudo apt update
+      sudo apt install xdg-utils
+```
 
    **Platform-independant (Using conda)**
 ```
