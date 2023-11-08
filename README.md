@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Running the Project](#Running)
 - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
@@ -17,6 +18,26 @@
    <br>
    One feature of this program to note is that it searches and replaces the word "Quote" in the file name.  Anyone else who uses this program may not need this to occur, but for my purposes I wanted to ensure the word was not in the file name. I also made use of a recursive function to avoid the .pdf being in the file name.  There is probably a more efficient way to accomplish this, but I kept this approach because it wortks for my purposes and runtime is not an issue with my applications of the program.<br>
 
+## Running the Project
+
+1. Ensure that python, pdf2image, and poppler are installed on your machine
+Mac: (using brew)
+brew install poppler
+pip install pdf2image
+
+Windows
+Windows users will have to build or download poppler for Windows. Pypi recommends @oschwartz10612 version. You will then have to add the bin/ folder to PATH or use poppler_path = r"C:\path\to\poppler-xx\bin" as an argument in convert_from_path.
+
+Linux
+Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
+
+Platform-independant (Using conda)
+Install poppler: conda install -c conda-forge poppler
+Install pdf2image: pip install pdf2image
+
+2. Download the Zip file and locate the file path
+
+3. In Terminal
 
 ### Built With
 
