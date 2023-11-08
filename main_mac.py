@@ -47,8 +47,8 @@ new_files = os.listdir(pdf_directory)     # gets the contents of the file folder
 
 def display_pop_up():
     for i in new_files:
-        subprocess.run(["open", os.path.join(pdf_directory, i)], check=True)
-
+        file_path = os.path.join(pdf_directory, i)
+        subprocess.run(["open", file_path], check=True)
 
 def display_choice():
     display_input = input("Would you like to display the converted image? (yes/no) ")
