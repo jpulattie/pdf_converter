@@ -42,9 +42,21 @@ Install pdf2image: pip install pdf2image
 2. Download the Zip file, unzip file, and locate the file path
    
 3. In Terminal
+
+**Mac**
 ```
   cd *YOUR_FILE_PATH*/pdf_converter-master 
-  python main.py
+  python main_mac.py
+```
+**Windows**
+```
+  cd *YOUR_FILE_PATH*/pdf_converter-master 
+  python main_windows.py
+```
+**Linux**
+```
+  cd *YOUR_FILE_PATH*/pdf_converter-master 
+  python main_ubuntu.py
 ```
 
 ### Built With
