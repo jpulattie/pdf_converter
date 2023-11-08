@@ -21,23 +21,25 @@
 ## Running the Project
 
 1. Ensure that python, pdf2image, and poppler are installed on your machine
-Mac: (using brew)
+**Mac: (using brew)**
 brew install poppler
 pip install pdf2image
 
-Windows
+**Windows**
 Windows users will have to build or download poppler for Windows. Pypi recommends @oschwartz10612 version. You will then have to add the bin/ folder to PATH or use poppler_path = r"C:\path\to\poppler-xx\bin" as an argument in convert_from_path.
 
-Linux
+**Linux**
 Most distros ship with pdftoppm and pdftocairo. If they are not installed, refer to your package manager to install poppler-utils
 
-Platform-independant (Using conda)
+**Platform-independant (Using conda)**
 Install poppler: conda install -c conda-forge poppler
 Install pdf2image: pip install pdf2image
 
-2. Download the Zip file and locate the file path
+2. Download the Zip file, unzip file, and locate the file path
 
 3. In Terminal
+   cd *YOUR_FILE_PATH*/pdf_converter-master
+   python main.py
 
 ### Built With
 
